@@ -1,6 +1,7 @@
 # g-protect
 ## G-Protect discord raid protection bot
 G-Protect is a discord bot to protect your server against raids
+![G-Protect](g-protect.png)
 
 ## Commands
 The default prefix is `.`
