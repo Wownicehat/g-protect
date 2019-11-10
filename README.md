@@ -23,7 +23,7 @@ The default prefix is `.`
 |.softban|[mention] (Reason)|Will soft-ban the user with the reason|
 |.unsoftban|[mention] (Reason)|Will un-soft-ban the user with the reason|
 ## Credit
-- TheHunt3r (<@638840362663804959>): Mein dev
+- TheHunt3r (<@638840362663804959>): Main dev
 - RayanFR (<@133712709446402048>): Host / dev
 - Anatik (<@594913205638135814>): Dev web (🤢)
 - John-Duckesent (<@316913806997585921>, me): Main dev
