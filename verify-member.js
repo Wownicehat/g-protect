@@ -132,10 +132,10 @@ if(msg.content.startsWith(prefix + 'resolve')){
   if(args == ValideCodes[msg.author.id]){
     delete ValideCodes[msg.author.id];
     msg.channel.send(`<@!${msg.author.id}>, Tu a été Verifier sur : **${Coincoin[msg.author].guild.name}**`); // send message ok
-    var niggggga = Coincoin[msg.author].guild.roles.find(role => role.name === "unverified");
-            if(niggggga === undefined)
+    var bruh = Coincoin[msg.author].guild.roles.find(role => role.name === "unverified");
+            if(bruh === undefined)
             console.log("Na pas pu trouver le role unverified sur " + Coincoin[msg.author].guild.name);
-          Coincoin[msg.author].removeRole(niggggga, "nicked");
+          Coincoin[msg.author].removeRole(bruh, "nicked");
                           const verifembed = new Discord.RichEmbed()
         .setColor(Math.floor(Math.random() * 16777214) + 1)
         .setTitle(msg.author.tag+" has verified")
